@@ -1,0 +1,525 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MKTMCWL5');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Duvee Technologies</title>
+    <meta name="description" content="Signflow and business HTML template.">
+    <script src="../HTWF/scripts/jquery.min.js "></script>
+    <link rel="stylesheet" href="../HTWF/scripts/bootstrap/css/bootstrap.css">
+    <script src="../HTWF/scripts/script.js"></script>
+    <link rel="stylesheet" href="../HTWF/style.css">
+    <link rel="stylesheet" href="../HTWF/css/animations.css">
+    <link rel="stylesheet" href="../HTWF/scripts/flexslider/flexslider.css">
+    <link rel="stylesheet" href="../HTWF/css/components.css">
+    <link rel="stylesheet" href="../HTWF/css/content-box.css">
+    <link rel="stylesheet" href="../HTWF/scripts/magnific-popup.css">
+    <link rel="stylesheet" href="../HTWF/scripts/jquery.bootgrid.css">
+    <link rel="stylesheet" href="../skin.css">
+    <link rel="icon" href="../images/favicon.png">
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKTMCWL5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="preloader"></div>
+    <header class="fixed-top scroll-change" data-menu-anima="fade-bottom">
+        <div class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="/">
+                            <img class="logo-default" src="../images/Final_Logo.png" alt="logo" />
+                            <img class="logo-retina" src="../images/Final_Logo.png" alt="logo" />
+                            <span class="brand-text">
+                                <span class="brand-name">Duvee</span>
+                                <span class="brand-subtitle">Technologies</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <div class="nav navbar-nav navbar-right">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="/" role="button">Home</a>
+
+                                </li>
+                                <li class="dropdown active">
+                                    <a href="about.html"
+                                        role="button">About</a>
+
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="healthcare_seo.html" role="button">Healthcare SEO</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="political_marketing.html" role="button">Political Marketing</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Services <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="website_development.html">Website Development</a></li>
+                                        <li><a href="social_media_marketing.html">Social Media Marketing</a></li>
+                                        <li><a href="advanced_digital_marketing.html">Advanced Digital Marketing</a></li>
+                                        <li><a href="performance_marketing.html">Performance Marketing</a></li>
+                                        <li><a href="branding.html">Branding</a></li>
+                                        <li><a href="graphics_design.html">Graphics Design</a></li>
+                                        <li><a href="content_marketing.html">Content Marketing</a></li>
+                                        <li><a href="influencer_marketing.html">Influencer Marketing</a></li>
+                                        <li><a href="seo_service.html">SEO Service</a></li>
+                                        <li><a href="online_reputation_management.html">Online Reputation Management</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="talent_acquisition.html" role="button">Talent
+                                        Acquisition</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="blog.html" role="button">Blog</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="contact.html"
+                                        role="button">Contact Us</a>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="section-bg-image bg-top" style="background-image:url(../images/long-2.jpg)">
+       
+        <div class="container mt-50">
+            <div class="row">
+                <div class="col-md-7 col-sm-6">
+                    <div class="title-base text-left">
+                        <hr />
+                        <h2>About us</h2>
+                        <p>At Duvee Technology, we are passionate about transforming ideas into intelligent digital solutions. As a startup-friendly IT consultancy and software development firm, we specialize in building scalable, reliable, and innovative technology that empowers businesses to thrive in the digital age. With a team of dedicated professionals and a customer-first approach, we deliver high-quality services across software development, web and mobile applications, and IT consulting. Whether you're a growing startup or an established enterprise, Duvee Technology is your trusted partner for smart, future-ready solutions.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-sm-6" data-anima="fade-right" data-time="1000">
+                    <img src="../images/about.png" alt="Talent Acquisition" class="img-responsive">
+                </div>
+            </div>
+        </div>
+       
+        <div class="container">
+            <!-- <h1 class="text-center">Our vison and mission</h1> -->
+            <!-- <hr class="space" /> -->
+            <div class="row vertical-row flex-reverse">
+
+                <div class="col-md-6">
+                    <h4>Our Future Blueprint</h4>
+                    <p>
+                       Driving progress by making technology work the Duvee way—smart, secure, and future-ready.
+                    </p>
+                    <!-- <a href="#" class="circle-button btn btn-sm">View datas</a> -->
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/future_blueprint.png" alt="" data-anima="fade-left" data-time="1000" />
+                </div>
+
+            </div>
+            <!-- <hr class="space m" /> -->
+            <div class="row vertical-row ">    
+
+                <div class="col-md-6">
+                    <h4>Operating Philosophy</h4>
+                    <p>
+                        We design, develop, and fortify digital experiences that help our clients lead, not follow.
+                    </p>
+                    <hr class="space s" />
+                    <!-- <a href="#" class="circle-button btn btn-sm">View datas</a><span class="space"></span>
+                    <a href="#" class="circle-button btn btn-border btn-sm">Details</a> -->
+                </div>
+
+                <div class="col-md-6">
+                    <img src="../images/operating_philosophy.png" alt="" data-anima="fade-right" data-time="1000" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="section-empty">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 boxed-inverse shadow-1">
+                    <h4 class="text-m">Stocks markets</h4>
+                    <div class="counter-box-simple text-color text-bold"><span class="counter text-l" data-to="7000">7000</span><span class="text-s"> %</span></div>
+                    <hr class="space xs" />
+                    <p>Stocks from middle 2010.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 boxed-inverse shadow-1">
+                    <h4 class="text-m">Growing scale</h4>
+                    <div class="counter-box-simple text-color text-bold"><span class="counter text-l" data-to="300">300</span><span class="text-s"> %</span></div>
+                    <hr class="space xs" />
+                    <p>Growing of our daily business.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 boxed-inverse shadow-1">
+                    <h4 class="text-m">Employees</h4>
+                    <div class="counter-box-simple text-color text-bold"><span class="counter text-l" data-to="900">900</span><span class="text-s"></span></div>
+                    <hr class="space xs" />
+                    <p>Bumber of employees.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 boxed-inverse shadow-1">
+                    <h4 class="text-m">Projects</h4>
+                    <div class="counter-box-simple text-color text-bold"><span class="counter text-l" data-to="2500">2500</span><span class="text-s"></span></div>
+                    <hr class="space xs" />
+                    <p>Number of projects.</p>
+                </div>
+            </div>
+            <hr class="space" />
+            <div class="row vertical-row">
+                <div class="col-md-3">
+                    <div class="progress-circle" data-color="#5584ff" data-progress="60" data-thickness="5" data-options="lineCap:square">
+                        <div class="inner-circle">
+                            <div class="inner-center">
+                                Dloremque laudantium, totam rem aperiam
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="progress-circle" data-color="#5584ff" data-progress="30" data-thickness="5" data-options="lineCap:round">
+                        <div class="inner-circle">
+                            <div class="inner-center">
+                                Dloremque laudantium, totam rem aperiam
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 text-center-sm">
+                    <h2>Perfection is utopia</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+            </div>
+            <hr class="space m" />
+        </div>
+    </div> -->
+    <!-- <div class="section-bg-image" style="background-image:url(../images/bg-23.jpg)">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-6 col-center text-center boxed-inverse shadow-1">
+                    <h4>Join our services</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adip ullamco laboris nisi utla pariature tempore marto.</p>
+                    <a href="#" class="circle-button btn btn-sm">Circle button</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="section-empty">
+        <div class="container content">
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>A network of people</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <hr class="space m" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-check"></i> Utenim ad minim veniam qui</li>
+                                <li><i class="fa-li fa fa-check"></i> Duis aute irure dehenderi</li>
+                                <li><i class="fa-li fa fa-check"></i> Consectetur adipiscing</li>
+                                <li><i class="fa-li fa fa-check"></i> Ceniam quis nostrud exero </li>
+                                <li><i class="fa-li fa fa-check"></i> Consectetur adipisco</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-check"></i> Duis aute irure dolore marto</li>
+                                <li><i class="fa-li fa fa-check"></i> Aaboris nisi ut aliqui</li>
+                                <li><i class="fa-li fa fa-check"></i> Ceniam quis nostrud exero </li>
+                                <li><i class="fa-li fa fa-check"></i> Consectetur adipisco</li>
+                                <li><i class="fa-li fa fa-check"></i> Utenim ad minim venia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 boxed-inverse">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Marketing</td>
+                                <td>Euismod parturient curabitur, explicabo etiam quae cillum, sunt pariaturo.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Constructions</td>
+                                <td>Officiis fermentum aut potenti eo nascetur incididunt labore ipsa quoss donec vivamus dictumst qui qui cras ligula.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Renovation</td>
+                                <td>Tenetur scelerisque omnis! Elementum! Laboriosam omnis lorem</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Outdoors</td>
+                                <td>Aascetur incididunt labore ipsa quoss donec vivamu scelerisque omnis! Elementum! Laboriosam omnis lorem</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="section-bg-image bg-top" style="background-image:url(../images/bg-14.png)">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Our Team</h1>
+                    <p>
+                       Our skilled, experienced team is committed to excellence, delivering solutions that drive real results.
+                    </p>
+                </div>
+                <div class="col-md-6 boxed-inverse shadow-1">
+                    <div class="row">
+                        <div >
+                            <ul class="fa-ul text-color ">
+                                <li><i class="fa-li fa fa-check"></i> Expert team with proven industry experience</li>
+                                <li><i class="fa-li fa fa-check"></i> Client-focused approach with long-term partnerships</li>
+                                <li><i class="fa-li fa fa-check"></i> Innovative and scalable digital solutions</li>
+                                <li><i class="fa-li fa fa-check"></i> Cutting-edge technology and best practices</li>
+                                <li><i class="fa-li fa fa-check"></i> Strong track record of successful projects</li>
+                                <li><i class="fa-li fa fa-check"></i> Commitment to quality, security, and performance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="section-bg-image bg-top" style="background-image:url(../images/long-1.jpg)">
+        <div class="container">
+
+            <div class="row ">
+            <div class="col-md-12 text-center">
+                <h2 class="font-weight-300">Our team</h2>
+                <p>Our team is made up of highly skilled professionals with deep expertise in their fields.</p>
+                <hr class="space m" />
+            </div>
+        </div>
+
+            <div class="row vertical-row flex-reverse">
+                <div class="col-md-6 col-sm-12 text-center-sm">
+
+                    
+
+                    <!-- <h1>Our team</h1>
+                    <p>Our team is made up of highly skilled professionals with deep expertise in their fields.</p> -->
+                    <hr class="space xs" />
+                    <ul class="fa-ul text-color text-center-sm">
+                        <li><i class="fa-li fa fa-check"></i>Expert team with proven industry experience</li>
+                        <li><i class="fa-li fa fa-check"></i>Client-focused approach with long-term partnerships</li>
+                        <li><i class="fa-li fa fa-check"></i>Innovative and scalable digital solutions</li>
+                        <li><i class="fa-li fa fa-check"></i>Cutting-edge technology and best practices</li>
+                        <li><i class="fa-li fa fa-check"></i>Strong track record of successful projects</li>
+                        <li><i class="fa-li fa fa-check"></i>Commitment to quality, security, and performance</li>
+
+                    </ul>
+                    <hr class="space visible-sm" />
+                </div>
+                <div class="col-md-6 col-sm-12">
+
+                    <a class="img-box lightbox inner" href="http://www.framework-y.com/images/thumb-large.png">
+                        <span><img src="../images/team.png" alt="" /></span>
+
+                    </a>
+
+                    <!-- <div class="flexslider slider nav-inner white" data-options="controlNav:true,directionNav:false">
+                        <ul class="slides">
+                            <li>
+                                <a class="img-box lightbox inner" href="http://www.framework-y.com/images/thumb-large.png">
+                                    <span><img src="../images/gallery/large-1.jpg" alt="" /></span>
+                                    <span class="caption-box">
+                                        <span class="caption">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                                            Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisio.
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box lightbox inner" href="http://www.framework-y.com/images/thumb-large.png">
+                                    <span><img src="../images/gallery/large-1.jpg" alt="" /></span>
+                                    <span class="caption-box">
+                                        <span class="caption">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                                            Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisio.
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+    <footer class="footer-base">
+        <div class="content">
+            <div class="mt-50">
+                <div class="row">
+                    <div class="col-md-3 footer-center text-left">
+                        <img width="120" src="../images/duvee_logo.jpg" alt="" />
+                    </div>
+                    <div class="col-md-6 footer-left text-left">
+                        <p>11/62, Sriman Srinivasa Road, Venus Colony, Teynampet</p>
+
+                        <p>Chennai, Tamil Nadu - 600018</p>
+
+                        <div class="tag-row">
+                            <span><a href="mailto:info@duveetech.com">info@duveetech.com</a></span>
+                            
+                            <span><a href="tel:+918925939196">+91 89259 39196</a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-left text-right text-left-sm">
+                        <div class="btn-group social-group btn-group-icons">
+                            <a target="_blank" href="https://www.facebook.com/profile.php?id=61578112702680"
+                                >
+                                <img src="../images/facebook_icon.png">
+                            </a>
+
+                            <a target="_blank" href="https://www.instagram.com/duvee_tech_official/?hl=en"
+                                >
+                                <img src="../images/instagram_icon.png">
+                            </a>
+
+                            <a target="_blank"
+                                href="https://www.linkedin.com/company/duvee-technologies-private-limited"
+                                >
+                                <img src="../images/linkedin_icon.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row copy-row">
+                <div class="col-md-12 copy-text">
+                    © 2025 Duvee Technologies
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="../HTWF/scripts/font-awesome/css/font-awesome.css">
+        <script async src="../HTWF/scripts/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../HTWF/scripts/imagesloaded.min.js"></script>
+        <script src="../HTWF/scripts/parallax.min.js"></script>
+        <script src="../HTWF/scripts/flexslider/jquery.flexslider-min.js"></script>
+        <script async src="../HTWF/scripts/jquery.progress-counter.js"></script>
+        <script async src="../HTWF/scripts/jquery.tab-accordion.js"></script>
+        <script async src="../HTWF/scripts/bootstrap/js/bootstrap.popover.min.js"></script>
+        <script async src="../HTWF/scripts/jquery.magnific-popup.min.js"></script>
+        <script src="../HTWF/scripts/social.stream.min.js"></script>
+        <script src="../HTWF/scripts/jquery.slimscroll.min.js"></script>
+        <script src="../HTWF/scripts/smooth.scroll.min.js"></script>
+        <script async src="../HTWF/scripts/isotope.min.js"></script>
+        <script async src="../HTWF/scripts/jquery.tab-accordion.js"></script>
+        <script src="../HTWF/scripts/parallax.min.js"></script>
+        <script src="../HTWF/scripts/smooth.scroll.min.js"></script>
+        <script>
+            // keep your initial scroll trigger if needed
+            // optional: trigger a scroll event after load like you had
+            setTimeout(function () { $(window).scroll(); }, 50);
+
+            $("body").on("click", ".scroll-to-services", function (e) {
+                e.preventDefault();
+                var $target = $("#services");
+                if (!$target.length) return;
+
+                // adjust if you have a fixed header (set to 0 if no fixed header)
+                var headerOffset = 100;
+                var top = Math.max(0, $target.offset().top - headerOffset);
+
+                // respect reduced motion preference
+                if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                    $("html, body").scrollTop(top);
+                } else {
+                    $("html, body").stop().animate({ scrollTop: top }, 600, 'swing');
+                }
+            });
+
+        </script>
+
+        <script>
+            const popup = document.getElementById("popup");
+const video = document.getElementById("myVideo");
+const playBtn = document.getElementById("playBtn");
+const closeBtn = document.getElementById("closeBtn");
+
+// Open popup on button click
+playBtn.addEventListener("click", function(e) {
+  e.preventDefault(); // Prevent page jump
+  popup.style.display = "flex";
+  video.currentTime = 0; // Start from beginning
+  video.play();
+});
+
+// Close popup on close button
+closeBtn.addEventListener("click", function() {
+  popup.style.display = "none";
+  video.pause();
+});
+
+// (Optional) Close popup when clicking outside the video box
+window.addEventListener("click", function(e) {
+  if (e.target === popup) {
+    popup.style.display = "none";
+    video.pause();
+  }
+});
+
+        </script>
+
+    </footer>
+</body>
+
+</html>

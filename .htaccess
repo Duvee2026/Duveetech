@@ -1,0 +1,32 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^duveetech\.com$ [NC]
+RewriteRule ^(.*)$ https://www.duveetech.com/$1 [L,R=301]
+
+# Redirect non-www to www
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# Redirect .html URLs to non-.html
+RewriteCond %{THE_REQUEST} \s/(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L,NE]
+
+# Redirect .php URLs to non-.php (except for actual form processing)
+RewriteCond %{THE_REQUEST} \s/(.+?)\.php[\s?] [NC]
+RewriteCond %{REQUEST_URI} !^/send_mail\.php$ [NC]
+RewriteCond %{REQUEST_URI} !^/process-lead\.php$ [NC]
+RewriteRule ^ /%1 [R=301,L,NE]
+
+# Serve .html files without extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L]
+
+# Serve .php files without extension (except form handlers)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
+
+

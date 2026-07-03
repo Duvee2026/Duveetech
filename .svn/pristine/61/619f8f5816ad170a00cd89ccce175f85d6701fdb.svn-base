@@ -1,0 +1,64 @@
+<?php
+header('Content-Type: application/json');
+
+// Enable errors in development (disable in production)
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Include PHPMailer
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require __DIR__ . '/HTWF/scripts/vendor/autoload.php'; // use vendor in scripts
+
+// Email configuration
+$mailHost = 'mail.privateemail.com';          // Replace with your SMTP host
+$mailUsername = 'enquiry@duveetech.com';           // Replace with your SMTP username
+$mailPassword = 'Enquiry@duvee';               // Replace with your SMTP password
+$mailPort = 587;                              // Usually 587 for TLS
+$recipientEmail = 'enquiry@duveetech.com';         // Where to send form submission
+
+// Validate and sanitize inputs
+$name = htmlspecialchars(trim($_POST['name'] ?? ''));
+$email = filter_var(trim($_POST['email'] ?? ''), FILTER_VALIDATE_EMAIL);
+$mobile = htmlspecialchars(trim($_POST['mobile'] ?? ''));
+$message = htmlspecialchars(trim($_POST['message'] ?? ''));
+
+if (!$name || !$email || !$mobile) {
+    echo json_encode(['status' => 'error', 'message' => 'Please fill in all required fields.']);
+    exit;
+}
+
+$mail = new PHPMailer(true);
+
+try {
+    $mail->isSMTP();
+    $mail->Host       = $mailHost;
+    $mail->SMTPAuth   = true;
+    $mail->Username   = $mailUsername;
+    $mail->Password   = $mailPassword;
+    $mail->SMTPSecure = 'tls';
+    $mail->Port       = $mailPort;
+
+    $mail->setFrom($mailUsername, 'Website Contact Form');
+    $mail->addAddress($recipientEmail);
+    $mail->addReplyTo($email, $name);
+
+    $mail->Subject = 'New Contact Form Submission from ' . $name;
+
+    $body  = "<h3>New Contact Form Submission</h3>";
+    $body .= "<p><strong>Name:</strong> {$name}</p>";
+    $body .= "<p><strong>Email:</strong> {$email}</p>";
+    $body .= "<p><strong>Mobile:</strong> {$mobile}</p>";
+    $body .= "<p><strong>Message:</strong> " . nl2br($message) . "</p>";
+
+    $mail->isHTML(true);
+    $mail->Body = $body;
+
+    $mail->send();
+    header('Location: thankyou.html');
+    exit;
+} catch (Exception $e) {
+    // Stay on the same page and optionally show error (no redirect)
+    echo json_encode(['status' => 'error', 'message' => 'Mailer Error: ' . $mail->ErrorInfo]);
+}

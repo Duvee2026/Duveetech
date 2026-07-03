@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.duveetech.com/thankyou" />
+    <title>Thank You</title>
+    <link rel="stylesheet" href="../HTWF/style.css">
+    <style>
+        body {
+            text-align: center;
+            padding: 80px 20px;
+            font-family: Arial, sans-serif;
+            background: #f8f8f8;
+        }
+
+        .thankyou-box {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+            display: inline-block;
+            padding: 40px 60px;
+        }
+
+        h1 {
+            color: #4A90E2;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+
+        a {
+            color: #4A90E2;
+            text-decoration: underline;
+        }
+    </style>
+
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MKTMCWL5');
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKTMCWL5" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="thankyou-box">
+        <h1>Thank You!</h1>
+        <p>Your message has been sent successfully.<br>We appreciate your interest and will get back to you soon.</p>
+        <p><a href="/">Return to Home</a></p>
+    </div>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsent" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #fff; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); padding: 20px; z-index: 9999; border-top: 3px solid #4A90E2;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+            <div style="flex: 1; min-width: 250px;">
+                <p style="margin: 0; font-size: 14px; color: #333;">
+                    We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.
+                </p>
+            </div>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <button onclick="acceptCookies()" style="background: #4A90E2; color: #fff; border: none; border-radius: 25px; padding: 10px 30px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.background='#FF6B35'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.15)'" onmouseout="this.style.background='#4A90E2'; this.style.boxShadow='none'">Accept All</button>
+                <button onclick="acceptNecessaryCookies()" style="background: #6c757d; color: #fff; border: none; border-radius: 25px; padding: 10px 25px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.background='#5a6268'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.15)'" onmouseout="this.style.background='#6c757d'; this.style.boxShadow='none'">Accept Only Necessary Cookies</button>
+                <button onclick="declineCookies()" style="background: #f0f0f0; color: #333; border: 1px solid #ddd; border-radius: 25px; padding: 10px 30px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.background='#e0e0e0'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.15)'" onmouseout="this.style.background='#f0f0f0'; this.style.boxShadow='none'">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Check if user has already made a choice
+        function checkCookieConsent() {
+            var consent = localStorage.getItem('cookieConsent');
+            if (!consent) {
+                document.getElementById('cookieConsent').style.display = 'block';
+            }
+        }
+
+        // Accept cookies
+        function acceptCookies() {
+            localStorage.setItem('cookieConsent', 'accepted');
+            document.getElementById('cookieConsent').style.display = 'none';
+            // Enable your analytics/tracking scripts here
+            console.log('Cookies accepted');
+        }
+
+        // Accept only necessary cookies
+        function acceptNecessaryCookies() {
+            localStorage.setItem('cookieConsent', 'necessary');
+            document.getElementById('cookieConsent').style.display = 'none';
+            console.log('Only necessary cookies accepted');
+        }
+
+        // Decline cookies
+        function declineCookies() {
+            localStorage.setItem('cookieConsent', 'declined');
+            document.getElementById('cookieConsent').style.display = 'none';
+            console.log('Cookies declined');
+        }
+
+        // Show banner on page load if needed
+        window.addEventListener('load', checkCookieConsent);
+    </script>
+
+
+</body>
+
+</html>

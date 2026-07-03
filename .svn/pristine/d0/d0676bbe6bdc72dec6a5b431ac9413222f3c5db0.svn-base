@@ -1,0 +1,353 @@
+/*
+-------------------------------------------------------------------
+WORKFLOW LIST STYLES
+-------------------------------------------------------------------*/
+.workflow-list .list-group-item {
+    position: relative;
+    padding: 20px 20px 20px 80px;
+    border: none !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.workflow-list .list-group-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.workflow-list .list-group-item + .list-group-item {
+    margin-top: 25px;
+}
+
+.workflow-number {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #5584ff; /* Main theme color */
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 600;
+    font-size: 20px;
+    z-index: 2;
+}
+
+/* The connecting line */
+.workflow-list .list-group-item:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    left: 42px; /* Centered with the number circle */
+    top: calc(50% + 35px);
+    bottom: -25px; /* Extend to the next item's margin */
+    width: 2px;
+    background-color: #e0e0e0;
+    border-left: 2px dashed #d0d0d0;
+    z-index: 1;
+}
+
+.workflow-content h4 {
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.workflow-content p {
+    margin: 0;
+}
+
+/*
+-------------------------------------------------------------------
+WHY CHOOSE US SECTION STYLES
+-------------------------------------------------------------------*/
+.why-choose-us-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.choose-us-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #ffffff; /* Changed to white */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Added shadow for visibility */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 0 40px;
+    padding: 20px;
+}
+
+.choose-us-circle img {
+    max-width: 100%;
+    height: auto;
+}
+
+.choose-us-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.choose-us-card {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    /* width: 380px; Increased width */
+    min-height: 120px; /* Reduced height */
+    display: flex;
+    align-items: center; /* Align icon and text */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.choose-us-card .card-icon {
+    font-size: 32px;
+    color: #5584ff;
+    margin-right: 20px;
+}
+
+.choose-us-card .card-content {
+    flex: 1;
+}
+
+/*
+-------------------------------------------------------------------
+PHILOSOPHY SECTION STYLES
+-------------------------------------------------------------------*/
+.philosophy-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.philosophy-card {
+    background-color: #f3f4ff;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 800 800"><g fill-opacity="0.1" fill="%23aab9ff"><path d="M0 0l400 400L0 800zM800 0l-400 400L800 800z"/></g></svg>');
+    padding: 30px;
+    border-radius: 10px;
+    width: 260px; /* Reduced width to fit in one row */
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.philosophy-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.philosophy-card .card-icon {
+    font-size: 48px;
+    color: #5584ff;
+    margin-bottom: 20px;
+}
+
+.philosophy-card h4 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.philosophy-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.choose-us-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.choose-us-card h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.choose-us-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/*
+-------------------------------------------------------------------
+CUSTOM RESPONSIVE STYLES
+-------------------------------------------------------------------*/
+.subtitle-responsive {
+    font-size: 24px; /* Default font size for larger screens */
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+@media (max-width: 992px) {
+    .subtitle-responsive {
+        font-size: 20px; /* Font size for tablets */
+    }
+
+    .why-choose-us-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .choose-us-circle {
+        margin: 10px 0;
+        width: 200px;
+        height: 200px;
+    }
+
+    .choose-us-card {
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .subtitle-responsive {
+        font-size: 18px; /* Font size for mobile devices */
+    }
+}
+
+/* ====================================================================
+   Custom Typography Styles
+==================================================================== */
+h1, .text-xl {
+    font-weight: 450; /* Bolder h1 */
+    color: #333;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+h1::after, .text-xl::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: #5584ff; /* Primary blue for highlight */
+    border-radius: 2px;
+}
+
+p {
+    font-weight: 400; /* Slightly bolder paragraphs */
+    color: #555; /* Darker text for better contrast */
+    line-height: 1.8;
+}
+
+/* ====================================================================
+   Animated Hero Section
+==================================================================== */
+/* ====================================================================
+   Animated Hero Section
+==================================================================== */
+/* ====================================================================
+   Animated Hero Section
+==================================================================== */
+.hero-section {
+    padding: 120px 0;
+    color: #000;
+    background-color: #fff; /* Solid dark blue */
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100px; /* Position from the right */
+    left: auto;
+    transform: translateY(-50%); /* Center vertically */
+    width: 400px;
+    height: 400px;
+    background-image: url(../images/final_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.09;
+    z-index: 1;
+}
+
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Hero Section Typography */
+.hero-section .content-container {
+    text-align: left;
+}
+
+.hero-section h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #000; /* Black text */
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+/* Remove the centered underline from the main hero title */
+.hero-section h1::after {
+    display: none;
+}
+
+.hero-section .subtitle-responsive {
+    font-size: 22px;
+    font-weight: 300;
+    max-width: 800px;
+    margin: 20px 0 0; /* Adjusted margin for left alignment */
+    color: #333; /* Dark gray for subheading */
+}
+
+/* Make all columns equal height */
+.equal-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equal-row > [class*="col-"] {
+    display: flex;
+}
+
+/* Stretch the boxes inside */
+.equal-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+}
+
+/* Stretch <p> to equal height */
+.stretch-text {
+    flex-grow: 1;
+}
+
+/* Center icons */
+.center-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* spacing below icon */
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+

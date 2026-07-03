@@ -1,0 +1,571 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MKTMCWL5');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Duvee Technologies</title>
+    <meta name="description" content="">
+    <script src="../HTWF/scripts/jquery.min.js"></script>
+    <link rel="stylesheet" href="../HTWF/scripts/bootstrap/css/bootstrap.css">
+    <script src="../HTWF/scripts/script.js"></script>
+    <link rel="stylesheet" href="../HTWF/style.css">
+    <link rel="stylesheet" href="../HTWF/css/content-box.css">
+    <link rel="stylesheet" href="../HTWF/css/image-box.css">
+    <link rel="stylesheet" href="../HTWF/css/animations.css">
+    <link rel="stylesheet" href="../HTWF/css/components.css">
+    <link rel="stylesheet" href="../HTWF/scripts/flexslider/flexslider.css">
+    <link rel="stylesheet" href="../HTWF/scripts/magnific-popup.css">
+    <link rel="stylesheet" href="../HTWF/scripts/php/contact-form.css">
+    <link rel="stylesheet" href="../HTWF/scripts/social.stream.css">
+    <link rel="icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="../skin.css">
+</head>
+
+<body>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKTMCWL5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="preloader"></div>
+
+    <header class="fixed-top scroll-change" data-menu-anima="fade-bottom">
+        <div class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="/">
+                            <img class="logo-default" src="../images/Final_Logo.png" alt="logo" />
+                            <img class="logo-retina" src="../images/Final_Logo.png" alt="logo" />
+                            <span class="brand-text">
+                                <span class="brand-name">Duvee</span>
+                                <span class="brand-subtitle">Technologies</span>
+                            </span>
+                        </a>
+                    </div>
+                    
+                    <div class="collapse navbar-collapse">
+                        <div class="nav navbar-nav navbar-right">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown active">
+                                    <a href="/" role="button">Home</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="about.html" role="button">About</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="healthcare_seo.html" role="button">Healthcare SEO</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="political_marketing.html" role="button">Political Marketing</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Services <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="website_development.html">Website Development</a></li>
+                                        <li><a href="social_media_marketing.html">Social Media Marketing</a></li>
+                                        <li><a href="advanced_digital_marketing.html">Advanced Digital Marketing</a></li>
+                                        <li><a href="performance_marketing.html">Performance Marketing</a></li>
+                                        <li><a href="branding.html">Branding</a></li>
+                                        <li><a href="graphics_design.html">Graphics Design</a></li>
+                                        <li><a href="content_marketing.html">Content Marketing</a></li>
+                                        <li><a href="influencer_marketing.html">Influencer Marketing</a></li>
+                                        <li><a href="seo_service.html">SEO Service</a></li>
+                                        <li><a href="online_reputation_management.html">Online Reputation Management</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="talent_acquisition.html" role="button">Talent
+                                        Acquisition</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="blog.html" role="button">Blog</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="contact.html" role="button">Contact Us</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="popup-overlay" id="popup">
+        <div class="popup">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <video id="myVideo" controls loop>
+                <source src="../images/duvee.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <div class="section-bg-image bg-top " style="background-image:url(../images/long-1.jpg)">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-10 col-center text-center" data-anima="fade-in" data-time="1000">
+                    <h1 class="font-weight-300 ">Duvee Technologies</h1>
+                    <h2>Trust. Power. Success.</h2>
+                    <hr class="space" />
+                    <a href="#services" class="circle-button btn btn-lg shadow-1 scroll-to-services explore-btn">Explore
+                        services</a><span class="space"></span>
+                    <a href="#" class="circle-button btn btn-border btn-lg" id="playBtn">
+                        <i class="fa fa-play heartbeat"></i> Watch the video
+                    </a>
+                    <hr class="space" />
+                </div>
+            </div>
+            <hr class="space" />
+
+            <div class="form-box" style="max-width: 900px; margin: 10px auto 40px auto;">
+                <h1 class="font-weight-300" style="margin-bottom: 30px; text-align: center;">Get in touch</h1>
+                <form id="contactForm" action="send_mail.php" method="POST">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px;">
+                        <div style="display: flex; flex-direction: column;">
+                            <input type="text" name="name" placeholder="Name" class="form-control" required minlength="2" maxlength="50" pattern="[A-Za-z\s]+" style="border-radius: 25px; border: 2px solid #4A90E2; color: #000;" oninvalid="this.setCustomValidity('Please enter your name (letters only, min 2 characters).')" oninput="this.setCustomValidity('')" />
+                            <span class="error-message" style="color: red; font-size: 13px; min-height: 18px;"></span>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <input type="email" name="email" placeholder="Email" class="form-control" required style="border-radius: 25px; border: 2px solid #4A90E2; color: #000;" oninvalid="this.setCustomValidity('Please enter a valid email address.')" oninput="this.setCustomValidity('')" />
+                            <span class="error-message" style="color: red; font-size: 13px; min-height: 18px;"></span>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <input type="tel" name="mobile" placeholder="Mobile Number" class="form-control" required pattern="[0-9]{10}" maxlength="10" style="border-radius: 25px; border: 2px solid #4A90E2; color: #000;" oninvalid="this.setCustomValidity('Please enter a valid 10-digit mobile number.')" oninput="this.setCustomValidity('')" onkeypress="if(event.which<48||event.which>57||this.value.length>=10)event.preventDefault();" />
+                            <span class="error-message" style="color: red; font-size: 13px; min-height: 18px;"></span>
+                        </div>
+                        <div style="grid-column: span 2; display: flex; flex-direction: column;">
+                            <textarea name="message" placeholder="Message" class="form-control" rows="4" style="border-radius: 25px; border: 2px solid #4A90E2; resize: none; padding: 10px 15px; color: #000;"></textarea>
+                            <span class="error-message" style="color: red; font-size: 13px; min-height: 18px;"></span>
+                        </div>
+                        <button type="submit" class="btn btn-lg" style="align-self: center; justify-self: center; background: linear-gradient(90deg, #4A90E2 0%, #0072ff 100%); color: #fff; border: none; border-radius: 25px; padding: 12px 40px; font-size: 18px; font-weight: 600; box-shadow: 0 4px 16px rgba(74,144,226,0.15); transition: background 0.3s, box-shadow 0.3s; margin-bottom: 20px;">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="flexslider carousel outer-navs"
+                data-options="minWidth:200,itemMargin:30,numItems:3,controlNav:true,directionNav:true">
+                <ul class="slides">
+                    <li>
+                        <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                            <a class="img-box lightbox img-scale-up" href="#">
+                                <span><img src="../images/planning4.png" alt=""></span>
+                            </a>
+                            <div class="advs-box-content">
+                                <h3>Planning</h3>
+                                <p>
+                                    Every successful project starts with a clear plan. We help you define objectives,
+                                    anticipate challenges, and create a roadmap that drives results.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                            <a class="img-box lightbox img-scale-up" href="#">
+                                <span><img src="../images/analysis4.png" alt=""></span>
+                            </a>
+                            <div class="advs-box-content">
+                                <h3>Analysis</h3>
+                                <p>
+                                    Unlock the power of insights. Our thorough analysis turns raw data into actionable
+                                    strategies that drive growth and efficiency. 
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                            <a class="img-box lightbox img-scale-up" href="#">
+                                <span><img src="../images/design4.png" alt=""></span>
+                            </a>
+                            <div class="advs-box-content">
+                                <h3>Design</h3>
+                                <p>
+                                    Design is more than aesthetics. We create experiences that captivate users,
+                                    communicate your brand, and drive action.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                            <a class="img-box lightbox img-scale-up" href="#">
+                                <span><img src="../images/implementation4.png" alt=""></span>
+                            </a>
+                            <div class="advs-box-content">
+                                <h3>Implementation</h3>
+                                <p>
+                                    Turning plans into reality. Our implementation process ensures projects are executed
+                                    efficiently, on time, and to the highest standards.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                            <a class="img-box lightbox img-scale-up" href="#">
+                                <span><img src="../images/testing.png" alt=""></span>
+                            </a>
+                            <div class="advs-box-content">
+                                <h3>Testing</h3>
+                                <p>
+                                    Quality you can trust. Our comprehensive testing ensures every solution performs
+                                    flawlessly and meets your business standards.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                            <a class="img-box lightbox img-scale-up" href="#">
+                                <span><img src="../images/deployment.png" alt=""></span>
+                            </a>
+                            <div class="advs-box-content">
+                                <h3>Deployment</h3>
+                                <p>
+                                    From development to delivery, we ensure your solutions are deployed efficiently,
+                                    securely, and without disruption.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <hr class="space" />
+            <h1 class="text-l text-center">
+                We bring together deep expertise, reliable delivery, and a customer-first mindset to create solutions
+                that drive lasting growth and success.
+            </h1>
+            <hr class="space" />
+            <div class="grid-list">
+                <div class="grid-box row">
+                    <div class="grid-item col-md-3">
+                        <div class="icon-box">
+                            <div class="icon-box-cell">
+                                <i class="fa fa-lightbulb-o text-xl"></i>
+                            </div>
+                            <div class="icon-box-cell">
+                                <label class="text-m">Expertise</label>
+                                <p>
+                                    Powered by deep domain knowledge and cutting-edge tech solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item col-md-3">
+                        <div class="icon-box">
+                            <div class="icon-box-cell">
+                                <i class="fa fa-clock-o text-xl"></i>
+                            </div>
+                            <div class="icon-box-cell">
+                                <label class="text-m">Timely Delivery</label>
+                                <p>
+                                    Agile processes ensure on-time delivery, every time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item col-md-3">
+                        <div class="icon-box">
+                            <div class="icon-box-cell">
+                                <i class="fa fa-users text-xl"></i>
+                            </div>
+                            <div class="icon-box-cell">
+                                <label class="text-m">Customer Focus</label>
+                                <p>
+                                    We build solutions around your vision with a user-first mindset.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item col-md-3">
+                        <div class="icon-box">
+                            <div class="icon-box-cell">
+                                <i class="fa fa-heart text-xl"></i>
+                            </div>
+                            <div class="icon-box-cell">
+                                <label class="text-m">Trusted Partner
+                                </label>
+                                <p>
+                                    Your long-term tech ally for scalable and secure growth.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- <hr class="space" /> -->
+
+        </div>
+    </div>
+
+    <div id="services" class="section-bg-image mt-50" style="background-image:url(../images/long-2.jpg); background-attachment: scroll;">
+        <div class="container">
+            <h1 class="text-center font-weight-300">See our services</h1>
+
+            <div class="row vertical-row flex-reverse">
+
+                <div class="col-md-6">
+                    <h4>Website Development</h4>
+                    <p>We build modern, responsive websites that combine sleek design with powerful functionality. Our
+                        development process ensures scalability, performance, and user-friendly experiences that
+                        strengthen your digital presence and drive business growth.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="../images/website_development.png" alt="" data-anima="fade-left" data-time="1000" />
+                </div>
+
+            </div>
+
+            <div class="row vertical-row">
+                <div class="col-md-6">
+                    <h4>Advanced Digital Marketing</h4>
+                    <p>We specialize in data-driven digital marketing strategies that amplify your brand's online presence. From targeted campaigns to advanced analytics, our solutions optimize engagement, drive conversions, and deliver measurable results that accelerate your business growth.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/advanced_digital_marketing.png" alt="" data-anima="fade-right" data-time="1000" />
+                </div>
+            </div>
+
+            <div class="row vertical-row flex-reverse">
+
+                <div class="col-md-6">
+                    <h4>Branding</h4>
+                    <p>
+                        We craft compelling brand identities that resonate with your target audience and set you apart from the competition. From logo design to complete brand strategy, our creative solutions establish a strong, memorable presence that builds trust and drives business growth.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="../images/branding.png" alt="" data-anima="fade-left" data-time="1000" />
+                </div>
+            </div>
+
+            <div class="row vertical-row">
+                <div class="col-md-6">
+                    <h4>Cyber Security</h4>
+                    <p>
+                        We provide robust cybersecurity solutions designed to protect your business from digital
+                        threats. Our services ensure data security, system resilience, and compliance, giving you the
+                        confidence to operate safely in an ever-evolving digital landscape.
+                    </p>
+                    <hr class="space s" />
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/cyber_security.png" alt="" data-anima="fade-right" data-time="1000" />
+                </div>
+            </div>
+
+            <div class="row vertical-row flex-reverse">
+
+                <div class="col-md-6">
+                    <h4>UI/UX Design</h4>
+                    <p>We craft intuitive UI/UX designs that blend creativity with usability. Our user-centered approach
+                        ensures seamless interactions, engaging experiences, and visually appealing interfaces that
+                        elevate your brand and keep customers coming back.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="../images/ui_ux.png" alt="" data-anima="fade-left" data-time="1000" />
+                </div>
+            </div>
+
+            <div class="row vertical-row">
+                <div class="col-md-6">
+                    <h4>Data Analytics</h4>
+                    <p>
+                        We deliver data analytics solutions that transform raw information into actionable insights. Our
+                        expertise helps you make informed decisions, optimize performance, and uncover growth
+                        opportunities through intelligent, data-driven strategies.
+                    </p>
+                    <hr class="space s" />
+
+                </div>
+                <div class="col-md-6">
+                    <img src="../images/data_analytics.png" alt="" data-anima="fade-right" data-time="1000" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-empty text-center">
+        <div class="container">
+            <h1 class="font-weight-300">Our Clients</h1>
+            <p>We’ve earned the trust of our clients by combining expertise with a commitment to excellence.</p>
+            <hr class="space" />
+
+            <div class="clients-row">
+
+                <div class="client-item">
+                    <img class="client-logo" src="../images/logo_hesper.png" alt="Hesper logo" />
+                </div>
+
+                <div class="client-item">
+                    <img class="client-logo" src="../images/soul_of_arabia.png" alt="Soul of Arabia logo" />
+                </div>
+
+                <div class="client-item">
+                    <img class="client-logo" src="../images/cosmo_grand.png" alt="Cosmo Grand logo" />
+                </div>
+
+                 <div class="client-item">
+                    <img class="client-logo" src="../images/pranavam_logo.jpg" alt="Pranavm" />
+                </div>
+
+                <div class="client-item">
+                    <img class="client-logo" src="../images/shf2.png" alt="SHF" />
+                </div>
+
+                
+
+                <!-- Add more client-item divs here -->
+            </div>
+        </div>
+    </div>
+    <hr class="space" />
+    
+    <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+   
+    <footer class="footer-base">
+        <div class="content">
+            <div class="mt-50">
+                <div class="row">
+                    <div class="col-md-3 footer-center text-left">
+                        <img width="120" src="../images/duvee_logo.jpg" alt="" />
+                    </div>
+                    <div class="col-md-6 footer-left text-left">
+                        <p>11/62, Sriman Srinivasa Road, Venus Colony, Teynampet</p>
+
+                        <p>Chennai, Tamil Nadu - 600018</p>
+
+                        <div class="tag-row">
+                            <span><a href="mailto:info@duveetech.com">info@duveetech.com</a></span>
+                            
+                            <span><a href="tel:+918925939196">+91 89259 39196</a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-left text-right text-left-sm">
+                        <div class="btn-group social-group btn-group-icons">
+                            <a target="_blank" href="https://www.facebook.com/profile.php?id=61578112702680"
+                                >
+                                <img src="../images/facebook_icon.png">
+                            </a>
+
+                            <a target="_blank" href="https://www.instagram.com/duvee_tech_official/?hl=en"
+                                >
+                                <img src="../images/instagram_icon.png">
+                            </a>
+
+                            <a target="_blank"
+                                href="https://www.linkedin.com/company/duvee-technologies-private-limited"
+                                >
+                                <img src="../images/linkedin_icon.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row copy-row">
+                <div class="col-md-12 copy-text">
+                    © 2025 Duvee Technologies
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="../HTWF/scripts/font-awesome/css/font-awesome.css">
+        <script async src="../HTWF/scripts/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../HTWF/scripts/imagesloaded.min.js"></script>
+        <script src="../HTWF/scripts/parallax.min.js"></script>
+        <script src="../HTWF/scripts/flexslider/jquery.flexslider-min.js"></script>
+        <script async src="../HTWF/scripts/jquery.progress-counter.js"></script>
+        <script async src="../HTWF/scripts/jquery.tab-accordion.js"></script>
+        <script async src="../HTWF/scripts/bootstrap/js/bootstrap.popover.min.js"></script>
+        <script async src="../HTWF/scripts/jquery.magnific-popup.min.js"></script>
+        <script src="../HTWF/scripts/social.stream.min.js"></script>
+        <script src="../HTWF/scripts/jquery.slimscroll.min.js"></script>
+        <script src="../HTWF/scripts/smooth.scroll.min.js"></script>
+        <script async src="../HTWF/scripts/isotope.min.js"></script>
+        <script async src="../HTWF/scripts/jquery.tab-accordion.js"></script>
+        <script src="../HTWF/scripts/parallax.min.js"></script>
+        <script src="../HTWF/scripts/smooth.scroll.min.js"></script>
+        <script>
+            // keep your initial scroll trigger if needed
+            // optional: trigger a scroll event after load like you had
+            setTimeout(function () { $(window).scroll(); }, 50);
+
+            $("body").on("click", ".scroll-to-services", function (e) {
+                e.preventDefault();
+                var $target = $("#services");
+                if (!$target.length) return;
+
+                // adjust if you have a fixed header (set to 0 if no fixed header)
+                var headerOffset = 100;
+                var top = Math.max(0, $target.offset().top - headerOffset);
+
+                // respect reduced motion preference
+                if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                    $("html, body").scrollTop(top);
+                } else {
+                    $("html, body").stop().animate({ scrollTop: top }, 600, 'swing');
+                }
+            });
+
+        </script>
+
+        <script>
+            const popup = document.getElementById("popup");
+            const video = document.getElementById("myVideo");
+            const playBtn = document.getElementById("playBtn");
+            const closeBtn = document.getElementById("closeBtn");
+
+            // Open popup on button click
+            playBtn.addEventListener("click", function(e) {
+            e.preventDefault(); // Prevent page jump
+            popup.style.display = "flex";
+            video.currentTime = 0; // Start from beginning
+            video.play();
+            });
+
+            // Close popup on close button
+            closeBtn.addEventListener("click", function() {
+            popup.style.display = "none";
+            video.pause();
+            });
+
+            // (Optional) Close popup when clicking outside the video box
+            window.addEventListener("click", function(e) {
+            if (e.target === popup) {
+                popup.style.display = "none";
+                video.pause();
+            }
+            });
+
+        </script>
+        
+    </footer>
+</body>
+
+</html>

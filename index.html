@@ -1,0 +1,1078 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MKTMCWL5');</script>
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1532750337871513');
+        fbq('track', 'PageView');
+    </script>
+    <script>
+        function triggerLead(formName, hiddenId) {
+            var eid = formName + '_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+            document.getElementById(hiddenId).value = eid;
+            fbq('track', 'Lead', {
+                content_name: formName,
+                value: 1.00,
+                currency: 'INR'
+            }, {
+                eventID: eid
+            });
+        }
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://www.duveetech.com/" />
+    <title>Duvee Technologies</title>
+    <meta name="description" content="">
+    <meta name="facebook-domain-verification" content="t6tj8e3cn4yhpnrcyypiwz72ehb152" />
+    <script src="../HTWF/scripts/jquery.min.js"></script>
+    <link rel="stylesheet" href="../HTWF/scripts/bootstrap/css/bootstrap.css">
+    <script src="../HTWF/scripts/script.js"></script>
+    <link rel="stylesheet" href="../HTWF/style.css">
+    <link rel="stylesheet" href="../HTWF/css/content-box.css">
+    <link rel="stylesheet" href="../HTWF/css/image-box.css">
+    <link rel="stylesheet" href="../HTWF/css/animations.css">
+    <link rel="stylesheet" href="../HTWF/css/components.css">
+    <link rel="stylesheet" href="../HTWF/scripts/flexslider/flexslider.css">
+    <link rel="stylesheet" href="../HTWF/scripts/magnific-popup.css">
+    <link rel="stylesheet" href="../HTWF/scripts/php/contact-form.css">
+    <link rel="stylesheet" href="../HTWF/scripts/social.stream.css">
+    <link rel="icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="../skin.css">
+
+    <!-- Custom styles moved to skin.css -->
+
+    <style>
+        .flip-text-container {
+            position: relative;
+            min-height: 30px;
+            overflow: visible;
+            width: 100%;
+            perspective: 1000px;
+        }
+        
+        .flip-text-item {
+            position: absolute;
+            width: 100%;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            transform: rotateX(-90deg);
+            transform-origin: 50% 50%;
+            opacity: 0;
+            transition: transform 0.6s ease, opacity 0.3s ease;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        
+        .flip-text-item.active {
+            transform: rotateX(0deg);
+            opacity: 1;
+        }
+        
+        .flip-text-item:not(.active) {
+            transform: rotateX(90deg);
+        }
+        
+        /* Allow text wrapping on mobile devices */
+        @media (max-width: 768px) {
+            .flip-text-container {
+                min-height: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/process-lead.php" method="POST" style="height: 0;"
+        onsubmit="triggerLead('Home Page Form','event_home'); return true;">
+        <input type="hidden" name="event_id" id="event_home">
+        <input type="hidden" name="form_source" value="Home Page Form">
+        <input type="email" name="email" required>
+        <button type="submit"><span class="underline-swipe">Submit Your Enquiry</span></button>
+    </form>
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKTMCWL5" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+    <div id="preloader"></div>
+
+    <header class="fixed-top scroll-change" data-menu-anima="fade-bottom">
+        <div class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="/">
+                            <img class="logo-default" src="../images/Final_Logo.png" alt="logo" style="background: white; padding: 5px; border-radius: 4px;" />
+                            <img class="logo-retina" src="../images/Final_Logo.png" alt="logo" style="background: white; padding: 5px; border-radius: 4px;" />
+                            <span class="brand-text">
+                                <span class="brand-name">Duvee</span>
+                                <span class="brand-subtitle">Technologies</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse">
+                        <div class="nav navbar-nav navbar-right">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown active">
+                                    <a href="/" role="button">Home</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="about-us.html" role="button">About Us</a>
+                                </li>
+<li class="dropdown">
+                                    <a href="talent-acquisition.html" role="button">Talent
+                                        Acquisition</a>
+                                </li>
+<li class="dropdown">
+                                    <a href="contact-us.html" role="button">Contact Us</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="section-bg-image bg-top "
+        style="background-image:url(../images/long-1.jpg); padding-top: 0; margin-top: 0;">
+        <div class="container content" style="padding-top: 0; margin-top: 0;">
+            <div class="row hero-section" style="margin-top: 0;padding: 0 40px;">
+                <!-- Left Side - Company Info & Buttons -->
+                <div class="col-md-7 hero-left-content" data-anima="fade-in" data-time="1000"
+                    style="padding: 10px 45px;padding-right: 0; display: flex; flex-direction: column; justify-content: center; align-items: flex-start;">
+
+                    <div class="flip-text-container" style="margin-bottom: 15px;" id="flipTextContainer">
+                        <div class="flip-text-item active">
+                            <p style="font-size: 18px; font-weight: 400; color: #000; margin: 0;">
+                                Powered by AI. Proven by Results.
+                            </p>
+                        </div>
+                        <div class="flip-text-item">
+                            <p style="font-size: 18px; font-weight: 400; color: #000; margin: 0;">
+                                Smart Marketing. Measurable Results.
+                            </p>
+                        </div>
+                        <div class="flip-text-item">
+                            <p style="font-size: 18px; font-weight: 400; color: #000; margin: 0;">
+                                Performance Marketing That Delivers ROI.
+                            </p>
+                        </div>
+                        <div class="flip-text-item">
+                            <p style="font-size: 18px; font-weight: 400; color: #000; margin: 0;">
+                                Data-Driven Growth. ROI-Focused Execution.
+                            </p>
+                        </div>
+                        <div class="flip-text-item">
+                            <p style="font-size: 18px; font-weight: 400; color: #000; margin: 0;">
+                                Results You Can Track. Growth You Can Trust.
+                            </p>
+                        </div>
+                        <div class="flip-text-item">
+                            <p style="font-size: 18px; font-weight: 400; color: #000; margin: 0;">
+                                Built to Perform. Designed to Scale ROI.
+                            </p>
+                        </div>
+                    </div>
+
+                    <h1 style="font-size: 32px; font-weight: 400; color: #000; line-height: 1.3; margin-bottom: 20px;">
+                        <span><span style="color: #247CFF;">Best Digital Marketing Services </span><span style=" margin-top: 8px;">in <span
+                                style="color: #FF5E01; font-weight: 400;">Chennai</span>, India to scale your business
+                            faster.</span></span>
+                    </h1>
+
+                    <p style="font-size: 18px; font-weight: 400; color: #333; line-height: 1.6; margin-bottom: 25px;">
+                        Fast-track your business growth with Performance-driven digital marketing across SEO, AI
+                        visibility, Content, Online Paid Ads, Social Media and CRO.
+                    </p>
+
+                    <div class="check-items-wrapper" style="margin-bottom: 30px;">
+                        <div class="check-item"
+                            style="display: flex; align-items: center; margin-bottom: 0px; padding: 3px 0px; border-radius: 8px; transition: all 0.3s ease; cursor: pointer;"
+                            onmouseover="this.style.backgroundColor='#F0F9F4'; this.style.transform='translateX(10px)'; this.querySelector('.fa-check').style.transform='scale(1.2) rotate(360deg)';"
+                            onmouseout="this.style.backgroundColor='transparent'; this.style.transform='translateX(0)'; this.querySelector('.fa-check').style.transform='scale(1) rotate(0deg)';">
+                            <i class="fa fa-check"
+                                style="color: #4CAF50; font-size: 20px; margin-right: 12px; transition: all 0.5s ease;"></i>
+                            <span style="font-size: 16px; font-weight: 600; color: #000;">Trusted by Chennai startups &
+                                SMBs</span>
+                        </div>
+                        <div class="check-item"
+                            style="display: flex; align-items: center; margin-bottom: 0px; padding: 3px 0px; border-radius: 8px; transition: all 0.3s ease; cursor: pointer;"
+                            onmouseover="this.style.backgroundColor='#F0F9F4'; this.style.transform='translateX(10px)'; this.querySelector('.fa-check').style.transform='scale(1.2) rotate(360deg)';"
+                            onmouseout="this.style.backgroundColor='transparent'; this.style.transform='translateX(0)'; this.querySelector('.fa-check').style.transform='scale(1) rotate(0deg)';">
+                            <i class="fa fa-check"
+                                style="color: #4CAF50; font-size: 20px; margin-right: 12px; transition: all 0.5s ease;"></i>
+                            <span style="font-size: 16px; font-weight: 600; color: #000;">AI-powered, performance-based,
+                                data-driven campaigns</span>
+                        </div>
+                        <div class="check-item"
+                            style="display: flex; align-items: center; margin-bottom: 0px; padding: 3px 0px; border-radius: 8px; transition: all 0.3s ease; cursor: pointer;"
+                            onmouseover="this.style.backgroundColor='#F0F9F4'; this.style.transform='translateX(10px)'; this.querySelector('.fa-check').style.transform='scale(1.2) rotate(360deg)';"
+                            onmouseout="this.style.backgroundColor='transparent'; this.style.transform='translateX(0)'; this.querySelector('.fa-check').style.transform='scale(1) rotate(0deg)';">
+                            <i class="fa fa-check"
+                                style="color: #4CAF50; font-size: 20px; margin-right: 12px; transition: all 0.5s ease;"></i>
+                            <span style="font-size: 16px; font-weight: 600; color: #000;">Focused on real results, not
+                                just clicks</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons-wrapper"
+                        style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+
+                        <a href="contact-us.html" class="hero-btn-same-width"
+                            style="background: #247CFF; color: #fff; border: none; border-radius: 30px; padding: 14px 35px; font-size: 16px; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 10px; transition: all 0.3s; text-align: center;">
+                            <i class="fa fa-phone" style="font-size: 22px; color: #fff; transition: all 0.3s;"></i>
+                            <span class="underline-swipe">Book a Call</span>
+                        </a>
+
+                        <a href="about-us.html" class="hero-btn-same-width"
+                            style="background: #247CFF; color: #fff; border: none; border-radius: 30px; padding: 14px 35px; font-size: 16px; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; transition: all 0.3s; text-align: center;">
+                            <span class="underline-swipe">Our Team</span></a>
+
+                    </div>
+                </div>
+
+                <!-- Right Side - Contact Form -->
+                <div class="col-md-5" style="padding: 40px;">
+                    <div class="form-box"
+                        style="background: #ffffff; padding: 14px 18px; border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+                        <div class="get-in-touch-btn-wrapper">
+                            <div class="get-in-touch-banner">Get in Touch</div>
+                        </div>
+                        <form id="contactForm" action="send_mail.php" method="POST">
+                            <div style="display: flex; flex-direction: row; gap: 18px; justify-content: center;">
+                                <!-- Name Field -->
+                                <div
+                                    style="display: flex; flex-direction: column; align-items: flex-start; width: 48%;">
+                                    <label
+                                        style="display: block; margin-bottom: 2px; font-size: 12px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.5px; text-align: left;">NAME
+                                        <span style="color: #e74c3c;">*</span></label>
+                                    <input type="text" name="name" required minlength="2" maxlength="100"
+                                        pattern="[A-Za-z\s]+"
+                                        style="width: 100%; padding: 8px 12px; height: 40px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 14px; color: #333; background: #f9f9f9; transition: border 0.3s;"
+                                        oninvalid="this.setCustomValidity('Please enter your full name.')"
+                                        oninput="this.setCustomValidity('')"
+                                        onfocus="this.style.borderColor='#4A90E2'; this.style.background='#fff';"
+                                        onblur="this.style.borderColor='#e0e0e0'; this.style.background='#f9f9f9';" />
+                                    <span class="error-message"
+                                        style="color: #e74c3c; font-size: 10px; display: block;"></span>
+                                </div>
+
+                                <!-- Email Field -->
+                                <div
+                                    style="display: flex; flex-direction: column; align-items: flex-start; width: 48%;">
+                                    <label
+                                        style="display: block; margin-bottom: 2px; font-size: 12px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.5px; text-align: left;">EMAIL
+                                        ADDRESS <span style="color: #e74c3c;">*</span></label>
+                                    <div style="position: relative; width: 100%;">
+                                        <span
+                                            style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: #999;">
+                                            <i class="fa fa-envelope-o" style="font-size: 14px;"></i>
+                                        </span>
+                                        <input type="email" name="email" required
+                                            style="width: 100%; padding: 8px 12px 8px 36px; height: 40px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 14px; color: #333; background: #f9f9f9; transition: border 0.3s;"
+                                            oninvalid="this.setCustomValidity('Please enter a valid email address.')"
+                                            oninput="this.setCustomValidity('')"
+                                            onfocus="this.style.borderColor='#4A90E2'; this.style.background='#fff';"
+                                            onblur="this.style.borderColor='#e0e0e0'; this.style.background='#f9f9f9';" />
+                                    </div>
+                                    <span class="error-message"
+                                        style="color: #e74c3c; font-size: 10px; display: block;"></span>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; flex-direction: row; gap: 18px; justify-content: center;">
+                                <!-- Phone Field -->
+                                <div
+                                    style="display: flex; flex-direction: column; align-items: flex-start; width: 48%;">
+                                    <label
+                                        style="display: block; margin-bottom: 2px; font-size: 12px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.5px; text-align: left;">PHONE
+                                        NUMBER <span style="color: #e74c3c;">*</span></label>
+                                    <div style="position: relative; width: 100%;">
+                                        <span
+                                            style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: #999;">
+                                            <i class="fa fa-phone" style="font-size: 14px;"></i>
+                                        </span>
+                                        <input type="tel" name="mobile" required pattern="[\+0-9]{10,15}" maxlength="15"
+                                            oninvalid="this.setCustomValidity('Please enter a valid phone number (10-15 digits, may start with +).')"
+                                            oninput="this.setCustomValidity('')"
+                                            onkeypress="if(!/[0-9+]/.test(String.fromCharCode(event.which))||this.value.length>=15)event.preventDefault();"
+                                            style="width: 100%; padding: 8px 12px 8px 36px; height: 40px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 14px; color: #333; background: #f9f9f9; transition: border 0.3s;"
+                                            oninvalid="this.setCustomValidity('Please enter a valid 10-digit mobile number.')"
+                                            oninput="this.setCustomValidity('')"
+                                            onkeypress="if(event.which<48||event.which>57||this.value.length>=10)event.preventDefault();"
+                                            onfocus="this.style.borderColor='#4A90E2'; this.style.background='#fff';"
+                                            onblur="this.style.borderColor='#e0e0e0'; this.style.background='#f9f9f9';" />
+                                    </div>
+                                    <span class="error-message"
+                                        style="color: #e74c3c; font-size: 10px; display: block;"></span>
+                                </div>
+
+                                <!-- Services Dropdown -->
+                                <div
+                                    style="display: flex; flex-direction: column; align-items: flex-start; width: 48%;">
+                                    <label
+                                        style="display: block; margin-bottom: 2px; font-size: 12px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.5px; text-align: left;">SERVICES
+                                        <span style="color: #e74c3c;">*</span></label>
+                                    <select name="service" required
+                                        style="width: 100%; padding: 8px 8px 8px 8px; height: 40px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 14px; color: #333; background: #f9f9f9; transition: border 0.3s; text-align: left;">
+                                        <option value="">Select a service</option>
+                                        <option value="Website Development">Website Development</option>
+                                        <option value="Social Media Marketing">Social Media Marketing</option>
+                                        <option value="Advanced Digital Marketing">Advanced Digital Marketing</option>
+                                        <option value="Performance Marketing">Performance Marketing</option>
+                                        <option value="Branding">Branding</option>
+                                        <option value="Graphics Design">Graphics Design</option>
+                                        <option value="Content Marketing">Content Marketing</option>
+                                        <option value="Influencer Marketing">Influencer Marketing</option>
+                                        <option value="SEO Service">SEO Service</option>
+                                        <option value="Online Reputation Management">Online Reputation Management
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Message Field -->
+                            <div style="display: flex; flex-direction: column; align-items: center;">
+                                <label
+                                    style="display: block; margin-bottom: 2px; font-size: 12px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.5px; text-align: left; align-self: flex-start;">MESSAGE</label>
+                                <textarea name="message" rows="2"
+                                    style="width: 100%; max-width: 100%; padding: 8px 12px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 14px; color: #333; background: #f9f9f9; resize: none; transition: border 0.3s; font-family: inherit; box-sizing: border-box;"
+                                    onfocus="this.style.borderColor='#4A90E2'; this.style.background='#fff';"
+                                    onblur="this.style.borderColor='#e0e0e0'; this.style.background='#f9f9f9';"></textarea>
+                                <span class="error-message"
+                                    style="color: #e74c3c; font-size: 10px; display: block;"></span>
+                            </div>
+
+                            <!-- Custom Math CAPTCHA -->
+                            <div
+                                style="margin-top: 8px; display: flex; flex-direction: column; align-items: flex-start; width: 100%;">
+                                <label
+                                    style="display: block; margin-bottom: 2px; font-size: 12px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.5px; text-align: left;">SECURITY
+                                    CHECK <span style="color: #e74c3c;">*</span></label>
+                                <div
+                                    style="display: flex; align-items: center; flex-wrap: wrap; gap: 10px; width: 100%;">
+                                    <span id="captchaQuestion"
+                                        style="font-size: 16px; font-weight: 600; color: #333; background: #f0f0f0; padding: 10px 18px; border-radius: 4px;"></span>
+                                    <input type="number" id="captchaAnswer" required
+                                        style="width: 70px; padding: 8px 12px; border: 1px solid #e0e0e0; border-radius: 4px; font-size: 14px; color: #333; background: #f9f9f9; transition: border 0.3s;"
+                                        onfocus="this.style.borderColor='#4A90E2'; this.style.background='#fff';"
+                                        onblur="this.style.borderColor='#e0e0e0'; this.style.background='#f9f9f9';" />
+
+                                    <button type="submit" class="submit-enquiry-banner"><span
+                                            class="underline-swipe">Submit your Enquiry</span></button>
+
+                                </div>
+                                <span id="captchaError"
+                                    style="color: #e74c3c; font-size: 10px; display: none;">Incorrect answer. Please
+                                    try again.</span>
+                            </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="flexslider carousel outer-navs"
+            data-options="minWidth:200,itemMargin:30,numItems:3,controlNav:true,directionNav:true">
+            <ul class="slides">
+                <li>
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                        <a class="img-box lightbox img-scale-up" href="#">
+                            <span><img src="../images/planning4.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Planning</h3>
+                            <p>
+                                Every successful project starts with a clear plan. We help you define objectives,
+                                anticipate challenges, and create a roadmap that drives results.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                        <a class="img-box lightbox img-scale-up" href="#">
+                            <span><img src="../images/analysis4.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Analysis</h3>
+                            <p>
+                                Unlock the power of insights. Our thorough analysis turns raw data into actionable
+                                strategies that drive growth and efficiency.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                        <a class="img-box lightbox img-scale-up" href="#">
+                            <span><img src="../images/design4.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Design</h3>
+                            <p>
+                                Design is more than aesthetics. We create experiences that captivate users,
+                                communicate your brand, and drive action.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                        <a class="img-box lightbox img-scale-up" href="#">
+                            <span><img src="../images/implementation4.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Implementation</h3>
+                            <p>
+                                Turning plans into reality. Our implementation process ensures projects are executed
+                                efficiently, on time, and to the highest standards.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                        <a class="img-box lightbox img-scale-up" href="#">
+                            <span><img src="../images/testing.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Testing</h3>
+                            <p>
+                                Quality you can trust. Our comprehensive testing ensures every solution performs
+                                flawlessly and meets your business standards.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse shadow-1">
+                        <a class="img-box lightbox img-scale-up" href="#">
+                            <span><img src="../images/deployment.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Deployment</h3>
+                            <p>
+                                From development to delivery, we ensure your solutions are deployed efficiently,
+                                securely, and without disruption.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <hr class="space" />
+        <div style="padding-left:32px; padding-right:32px;">
+            <h1 class="text-l text-center" style="margin-bottom:0;">
+                We bring together deep expertise, reliable delivery, and a customer-first mindset to create solutions
+                that drive lasting growth and success.
+            </h1>
+        </div>
+        <!-- <hr class="space" /> -->
+        <div class="grid-list">
+            <div class="grid-box row">
+                <div class="grid-item col-md-3">
+                    <div class="icon-box">
+                        <div class="icon-box-cell">
+                            <i class="fa fa-lightbulb-o text-xl"></i>
+                        </div>
+                        <div class="icon-box-cell">
+                            <label class="text-m">Expertise</label>
+                            <p>Powered by deep domain knowledge and cutting-edge tech solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item col-md-3">
+                    <div class="icon-box">
+                        <div class="icon-box-cell">
+                            <i class="fa fa-clock-o text-xl"></i>
+                        </div>
+                        <div class="icon-box-cell">
+                            <label class="text-m">Timely Delivery</label>
+                            <p>Agile processes ensure on-time delivery, every time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item col-md-3">
+                    <div class="icon-box">
+                        <div class="icon-box-cell">
+                            <i class="fa fa-users text-xl"></i>
+                        </div>
+                        <div class="icon-box-cell">
+                            <label class="text-m">Customer Focus</label>
+                            <p>We build solutions around your vision with a user-first mindset.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item col-md-3">
+                    <div class="icon-box">
+                        <div class="icon-box-cell">
+                            <i class="fa fa-heart text-xl"></i>
+                        </div>
+                        <div class="icon-box-cell">
+                            <label class="text-m">Trusted Partner</label>
+                            <p>Your long-term tech ally for scalable and secure growth.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- <hr class="space" /> -->
+
+    </div>
+    </div>
+
+    <!-- Service box swipe-up gray overlay effect moved to skin.css -->
+    <div id="services" class="section-bg-image mt-50"
+        style="background-image:url(../images/long-2.jpg); background-attachment: scroll;">
+        <div class="container">
+            <h1 class="text-center font-weight-300">See our services</h1>
+            <div class="row grid-list" style="margin-top: 40px;">
+                <!-- Service 1 -->
+                <div class="col-md-4 col-sm-6 mb-50">
+                    <div class="services-icon-box text-center">
+                        <div class="icon-box-cell" style="display:flex; justify-content:center; align-items:center;"><i
+                                class="fa fa-code text-xl"></i></div>
+                        <label class="text-m" style="display:block; text-align:center; margin-top:10px;">Website
+                            Development</label>
+                        <div class="service-lower"
+                            style="background:#f5f5f5; padding:16px 12px 18px 12px; border-radius:0 0 8px 8px; text-align:center;">
+                            <p style="text-align:center;">Modern, responsive websites for your business growth.</p>
+                            <a href="contact-us.html" class="btn btn-sm"
+                                style="display:inline-block; margin:auto;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="col-md-4 col-sm-6 mb-50">
+                    <div class="services-icon-box text-center">
+                        <div class="icon-box-cell" style="display:flex; justify-content:center; align-items:center;"><i
+                                class="fa fa-facebook text-xl"></i></div>
+                        <label class="text-m" style="display:block; text-align:center; margin-top:10px;">Social Media
+                            Marketing</label>
+                        <div class="service-lower"
+                            style="background:#f5f5f5; padding:16px 12px 18px 12px; border-radius:0 0 8px 8px; text-align:center;">
+                            <p style="text-align:center;">Grow your brand and reach with targeted social campaigns.</p>
+                            <a href="contact-us.html" class="btn btn-sm"
+                                style="display:inline-block; margin:auto;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="col-md-4 col-sm-6 mb-50">
+                    <div class="services-icon-box text-center">
+                        <div class="icon-box-cell" style="display:flex; justify-content:center; align-items:center;"><i
+                                class="fa fa-line-chart text-xl"></i></div>
+                        <label class="text-m" style="display:block; text-align:center; margin-top:10px;">Advanced
+                            Digital Marketing</label>
+                        <div class="service-lower"
+                            style="background:#f5f5f5; padding:16px 12px 18px 12px; border-radius:0 0 8px 8px; text-align:center;">
+                            <p style="text-align:center;">Data-driven strategies to maximize your online impact.</p>
+                            <a href="contact-us.html" class="btn btn-sm"
+                                style="display:inline-block; margin:auto;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="col-md-4 col-sm-6 mb-50">
+                    <div class="services-icon-box text-center">
+                        <div class="icon-box-cell" style="display:flex; justify-content:center; align-items:center;"><i
+                                class="fa fa-bullseye text-xl"></i></div>
+                        <label class="text-m" style="display:block; text-align:center; margin-top:10px;">Performance
+                            Marketing</label>
+                        <div class="service-lower"
+                            style="background:#f5f5f5; padding:16px 12px 18px 12px; border-radius:0 0 8px 8px; text-align:center;">
+                            <p style="text-align:center;">ROI-focused campaigns to drive measurable results.</p>
+                            <a href="contact-us.html" class="btn btn-sm"
+                                style="display:inline-block; margin:auto;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 5 -->
+                <div class="col-md-4 col-sm-6 mb-50">
+                    <div class="services-icon-box text-center">
+                        <div class="icon-box-cell" style="display:flex; justify-content:center; align-items:center;"><i
+                                class="fa fa-diamond text-xl"></i></div>
+                        <label class="text-m"
+                            style="display:block; text-align:center; margin-top:10px;">Branding</label>
+                        <div class="service-lower"
+                            style="background:#f5f5f5; padding:16px 12px 18px 12px; border-radius:0 0 8px 8px; text-align:center;">
+                            <p style="text-align:center;">Build a memorable brand identity and stand out.</p>
+                            <a href="contact-us.html" class="btn btn-sm" style="display:inline-block; margin:auto;">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 6 -->
+                <div class="col-md-4 col-sm-6 mb-50">
+                    <div class="services-icon-box text-center">
+                        <div class="icon-box-cell" style="display:flex; justify-content:center; align-items:center;"><i
+                                class="fa fa-paint-brush text-xl"></i></div>
+                        <label class="text-m" style="display:block; text-align:center; margin-top:10px;">Graphics
+                            Design</label>
+                        <div class="service-lower"
+                            style="background:#f5f5f5; padding:16px 12px 18px 12px; border-radius:0 0 8px 8px; text-align:center;">
+                            <p style="text-align:center;">Creative visuals and designs for your brand needs.</p>
+                            <a href="contact-us.html" class="btn btn-sm"
+                                style="display:inline-block; margin:auto;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 7 -->
+                <div class="col-md-4 col-sm-6 mb-50">
+                    <div class="services-icon-box text-center">
+                        <div class="icon-box-cell" style="display:flex; justify-content:center; align-items:center;"><i
+                                class="fa fa-file-text-o text-xl"></i></div>
+                        <label class="text-m" style="display:block; text-align:center; margin-top:10px;">Content
+                            Marketing</label>
+                        <div class="service-lower"
+                            style="background:#f5f5f5; padding:16px 12px 18px 12px; border-radius:0 0 8px 8px; text-align:center;">
+                            <p style="text-align:center;">Engaging content to attract and retain your audience.</p>
+                            <a href="contact-us.html" class="btn btn-sm"
+                                style="display:inline-block; margin:auto;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 8 -->
+                <div class="col-md-4 col-sm-6 mb-50">
+                    <div class="services-icon-box text-center">
+                        <div class="icon-box-cell" style="display:flex; justify-content:center; align-items:center;"><i
+                                class="fa fa-users text-xl"></i></div>
+                        <label class="text-m" style="display:block; text-align:center; margin-top:10px;">Influencer
+                            Marketing</label>
+                        <div class="service-lower"
+                            style="background:#f5f5f5; padding:16px 12px 18px 12px; border-radius:0 0 8px 8px; text-align:center;">
+                            <p style="text-align:center;">Leverage influencers to boost your brand credibility.</p>
+                            <a href="contact-us.html" class="btn btn-sm"
+                                style="display:inline-block; margin:auto;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 9 -->
+                <div class="col-md-4 col-sm-6 mb-50">
+                    <div class="services-icon-box text-center">
+                        <div class="icon-box-cell" style="display:flex; justify-content:center; align-items:center;"><i
+                                class="fa fa-search text-xl"></i></div>
+                        <label class="text-m" style="display:block; text-align:center; margin-top:10px;">SEO
+                            Service</label>
+                        <div class="service-lower"
+                            style="background:#f5f5f5; padding:16px 12px 18px 12px; border-radius:0 0 8px 8px; text-align:center;">
+                            <p style="text-align:center;">Improve your search rankings and online visibility.</p>
+                            <a href="contact-us.html" class="btn btn-sm"
+                                style="display:inline-block; margin:auto;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 10 -->
+                <div class="col-md-4 col-sm-6 mb-50">
+                    <div class="services-icon-box text-center">
+                        <div class="icon-box-cell" style="display:flex; justify-content:center; align-items:center;"><i
+                                class="fa fa-shield text-xl"></i></div>
+                        <label class="text-m" style="display:block; text-align:center; margin-top:10px;">Online
+                            Reputation Management</label>
+                        <div class="service-lower"
+                            style="background:#f5f5f5; padding:16px 12px 18px 12px; border-radius:0 0 8px 8px; text-align:center;">
+                            <p style="text-align:center;">Protect and enhance your brand's online reputation.</p>
+                            <a href="contact-us.html" class="btn btn-sm"
+                                style="display:inline-block; margin:auto;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-empty text-center">
+        <div class="container">
+            <h1 class="font-weight-300">Our Clients</h1>
+            <p>We?ve earned the trust of our clients by combining expertise with a commitment to excellence.</p>
+            <!-- <hr class="space" /> -->
+
+            <div class="clients-row">
+
+                <div class="client-item">
+                    <img class="client-logo" src="../images/logo_hesper.png" alt="Hesper logo" />
+                </div>
+
+                <div class="client-item">
+                    <img class="client-logo" src="../images/soul_of_arabia.png" alt="Soul of Arabia logo" />
+                </div>
+
+                <div class="client-item">
+                    <img class="client-logo" src="../images/cosmo_grand.png" alt="Cosmo Grand logo" />
+                </div>
+
+                <div class="client-item">
+                    <img class="client-logo" src="../images/pranavam_logo.jpg" alt="Pranavm" />
+                </div>
+
+                <div class="client-item">
+                    <img class="client-logo" src="../images/shf2.png" alt="SHF" />
+                </div>
+
+
+
+                <!-- Add more client-item divs here -->
+            </div>
+        </div>
+    </div>
+    <hr class="space" />
+
+    <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+
+    <footer class="footer-base">
+        <div class="content" style="padding: 0;">
+            <div class="mt-20">
+                <div class="row">
+                    <div class="col-xs-12 col-md-9">
+<div class="row" style="display: flex; justify-content: center; flex-wrap: wrap;">
+                            <div class="col-xs-12 col-sm-2 footer-center text-center footer-logo-block"
+                                style="margin-bottom: 30px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                <img width="110" src="../images/Final_Logo.png" alt="Duvee Technologies logo"
+                                    style="background: white; padding: 10px; border-radius: 8px; margin-left: 12px;" />
+                            </div>
+                            <div class="col-xs-12 col-sm-4 footer-left"
+                                style="margin-bottom: 30px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+                                <h5
+                                    style="margin-top: 0; margin-bottom: 15px; font-size: 16px; font-weight: 600; text-align: center;">
+                                    Address</h5>
+                                <i class="fa fa-map-marker"
+                                    style="font-size: 40px; margin-bottom: 15px; display: block;"></i>
+                                <p
+                                    style="font-size: 14px; line-height: 1.6; margin: 0 auto; text-align: center; max-width: 240px;">
+                                    11/62, Sriman
+                                    Srinivasa
+                                    Road,<br>Venus Colony, Teynampet,<br>Chennai, Tamil Nadu - 600018</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 footer-left"
+                                style="margin-bottom: 30px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+                                <h5
+                                    style="margin-top: 0; margin-bottom: 15px; font-size: 16px; font-weight: 600; text-align: center;">
+                                    Email</h5>
+                                <i class="fa fa-envelope"
+                                    style="font-size: 40px; margin-bottom: 15px; display: block;"></i>
+                                <p style="font-size: 14px; line-height: 1.6; margin: 0 auto; text-align: center; max-width: 240px;"><a href="mailto:enquiry@duveetech.com" style="text-decoration: none;">enquiry@duveetech.com</a></p>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 footer-left"
+                                style="margin-bottom: 30px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+                                <h5
+                                    style="margin-top: 0; margin-bottom: 15px; font-size: 16px; font-weight: 600; text-align: center;">
+                                    Mobile</h5>
+                                <i class="fa fa-phone"
+                                    style="font-size: 40px; margin-bottom: 15px; display: block;"></i>
+                                <p style="font-size: 14px; line-height: 1.6; margin: 0 auto; text-align: center; max-width: 240px;"><a href="tel:+918925939196" style="text-decoration: none; white-space: nowrap;">+91 89259 39196</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-3 footer-left text-center text-md-right" style="margin-bottom: 30px;">
+<h5
+                            style="margin-top: 0; margin-bottom: 15px; font-size: 16px; font-weight: 600; text-align: center;">
+                            Social Media</h5>
+                        <div class="btn-group social-group btn-group-icons" style="display: flex; justify-content: center; align-items: center; gap: 12px; flex-wrap: nowrap;">
+    <a target="_blank" href="https://www.facebook.com/DuveeTech" style="display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; text-decoration: none; color: #fff !important;">
+        <i class="fa fa-facebook" style="font-size: 22px; color: #fff !important;"></i>
+    </a>
+    <a target="_blank" href="https://www.instagram.com/duvee_tech_official/" style="display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; text-decoration: none; color: #fff !important;">
+        <i class="fa fa-instagram" style="font-size: 22px; color: #fff !important;"></i>
+    </a>
+    <a target="_blank" href="https://x.com/Duvee_official" style="display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; text-decoration: none; color: #fff !important;"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" style="display:block;"><path fill="#ffffff" d="M18.901 1.153h3.68l-8.04 9.19L24 22.847h-7.406l-5.8-7.584-6.64 7.584H.47l8.6-9.83L0 1.154h7.594l5.243 6.932zM17.61 20.644h2.039L6.486 3.24H4.298z"/></svg></a>
+    <a target="_blank" href="https://www.linkedin.com/company/duvee-technologies" style="display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; text-decoration: none; color: #fff !important;">
+        <i class="fa fa-linkedin" style="font-size: 22px; color: #fff !important;"></i>
+    </a>
+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row copy-row">
+                <div class="col-md-12 copy-text">
+                    Copyrights &copy; 2026 Duvee Technologies Pvt. Ltd. All Rights Reserved.</div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="../HTWF/scripts/font-awesome/css/font-awesome.css">
+        <script async src="../HTWF/scripts/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../HTWF/scripts/imagesloaded.min.js"></script>
+        <script src="../HTWF/scripts/parallax.min.js"></script>
+        <script src="../HTWF/scripts/flexslider/jquery.flexslider-min.js"></script>
+        <script async src="../HTWF/scripts/jquery.progress-counter.js"></script>
+        <script async src="../HTWF/scripts/jquery.tab-accordion.js"></script>
+        <script async src="../HTWF/scripts/bootstrap/js/bootstrap.popover.min.js"></script>
+        <script async src="../HTWF/scripts/jquery.magnific-popup.min.js"></script>
+        <script src="../HTWF/scripts/social.stream.min.js"></script>
+        <script src="../HTWF/scripts/jquery.slimscroll.min.js"></script>
+        <script src="../HTWF/scripts/smooth.scroll.min.js"></script>
+        <script async src="../HTWF/scripts/isotope.min.js"></script>
+        <script async src="../HTWF/scripts/jquery.tab-accordion.js"></script>
+        <script src="../HTWF/scripts/parallax.min.js"></script>
+        <script src="../HTWF/scripts/smooth.scroll.min.js"></script>
+        <script>
+            // keep your initial scroll trigger if needed
+            // optional: trigger a scroll event after load like you had
+            setTimeout(function () { $(window).scroll(); }, 50);
+
+            $("body").on("click", ".scroll-to-services", function (e) {
+                e.preventDefault();
+                var $target = $("#services");
+                if (!$target.length) return;
+
+                // adjust if you have a fixed header (set to 0 if no fixed header)
+                var headerOffset = 100;
+                var top = Math.max(0, $target.offset().top - headerOffset);
+
+                // respect reduced motion preference
+                if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                    $("html, body").scrollTop(top);
+                } else {
+                    $("html, body").stop().animate({ scrollTop: top }, 600, 'swing');
+                }
+            });
+
+        </script>
+
+        <script>
+            // Flip text animation
+            function initFlipText() {
+                const container = document.getElementById('flipTextContainer');
+                if (!container) return;
+                
+                const items = container.querySelectorAll('.flip-text-item');
+                let currentIndex = 0;
+                
+                setInterval(function() {
+                    // Remove active class from current item
+                    items[currentIndex].classList.remove('active');
+                    
+                    // Move to next item
+                    currentIndex = (currentIndex + 1) % items.length;
+                    
+                    // Add active class to next item
+                    items[currentIndex].classList.add('active');
+                }, 2000); // Change every 2 seconds
+            }
+            
+            // Initialize flip text when DOM is ready
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initFlipText);
+            } else {
+                initFlipText();
+            }
+        </script>
+
+        <script>
+            // Math CAPTCHA functionality
+            let captchaNum1, captchaNum2, captchaCorrectAnswer;
+
+            function generateCaptcha() {
+                captchaNum1 = Math.floor(Math.random() * 10) + 1;
+                captchaNum2 = Math.floor(Math.random() * 10) + 1;
+                captchaCorrectAnswer = captchaNum1 + captchaNum2;
+                document.getElementById('captchaQuestion').textContent = `${captchaNum1} + ${captchaNum2} =`;
+            }
+
+            // Generate CAPTCHA on page load
+            window.addEventListener('load', generateCaptcha);
+
+            // Validate CAPTCHA on form submission
+            document.addEventListener('DOMContentLoaded', function () {
+                const form = document.getElementById('contactForm');
+                if (form) {
+                    form.addEventListener('submit', function (e) {
+                        const userAnswer = parseInt(document.getElementById('captchaAnswer').value);
+                        const captchaError = document.getElementById('captchaError');
+
+                        if (userAnswer !== captchaCorrectAnswer) {
+                            e.preventDefault();
+                            captchaError.style.display = 'block';
+                            generateCaptcha(); // Generate new question
+                            document.getElementById('captchaAnswer').value = '';
+                            return false;
+                        } else {
+                            captchaError.style.display = 'none';
+                        }
+                    });
+                }
+            });
+        </script>
+
+        </script>
+
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', function (e) {
+                let valid = true;
+                const form = this;
+                const errorMessages = form.querySelectorAll('.error-message');
+                errorMessages.forEach(err => err.textContent = '');
+
+                // Name validation
+                const name = form.elements['name'];
+                const nameError = name.parentElement.querySelector('.error-message');
+                if (!name.value.trim()) {
+                    nameError.textContent = 'Name is required.';
+                    valid = false;
+                } else if (!/^[A-Za-z\s]{2,100}$/.test(name.value.trim())) {
+                    nameError.textContent = 'Please enter a valid name (letters only).';
+                    valid = false;
+                }
+
+                // Email validation
+                const email = form.elements['email'];
+                const emailError = email.closest('div').parentElement.querySelector('.error-message');
+                if (!email.value.trim()) {
+                    emailError.textContent = 'Email is required.';
+                    valid = false;
+                } else if (!/^\S+@\S+\.\S+$/.test(email.value.trim())) {
+                    emailError.textContent = 'Please enter a valid email address.';
+                    valid = false;
+                }
+
+                // Mobile validation
+                const mobile = form.elements['mobile'];
+                const mobileError = mobile.closest('div').parentElement.querySelector('.error-message');
+                if (!mobile.value.trim()) {
+                    mobileError.textContent = 'Mobile number is required.';
+                    valid = false;
+                } else if (!/^[0-9]{10}$/.test(mobile.value.trim())) {
+                    mobileError.textContent = 'Please enter a valid 10-digit mobile number.';
+                    valid = false;
+                }
+
+                // Message validation (optional - just clear error)
+                const message = form.elements['message'];
+                const messageError = message.parentElement.querySelector('.error-message');
+                messageError.textContent = '';
+
+                if (!valid) e.preventDefault();
+            });
+        </script>
+
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+
+    <a href="https://wa.me/918925939196?text=Hi%2C%0AI%20need%20leads%20for%20my%20business.%0APlease%20contact%20me."
+        class="whatsapp-float whatsapp-tooltip-parent" target="_blank">
+        <span class="whatsapp-tooltip">Chat with us now<span class="whatsapp-tooltip-arrow"></span></span>
+        <i class="fa fa-whatsapp"></i>
+    </a>
+
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsent"
+        style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #fff; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); padding: 20px; z-index: 9999; border-top: 3px solid #4A90E2;">
+        <div
+            style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+            <div style="flex: 1; min-width: 250px;">
+                <p style="margin: 0; font-size: 14px; color: #333;">
+                    We use cookies to enhance your browsing experience, serve personalized content, and analyze our
+                    traffic. By clicking "Accept All", you consent to our use of cookies.
+                </p>
+            </div>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <button onclick="acceptCookies()"
+                    style="background: #4A90E2; color: #fff; border: none; border-radius: 25px; padding: 10px 30px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s;"
+                    onmouseover="this.style.background='#FF6B35'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.15)'"
+                    onmouseout="this.style.background='#4A90E2'; this.style.boxShadow='none'">Accept All</button>
+                <button onclick="acceptNecessaryCookies()"
+                    style="background: #6c757d; color: #fff; border: none; border-radius: 25px; padding: 10px 25px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s;"
+                    onmouseover="this.style.background='#5a6268'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.15)'"
+                    onmouseout="this.style.background='#6c757d'; this.style.boxShadow='none'">Accept Only Necessary
+                    Cookies</button>
+                <button onclick="declineCookies()"
+                    style="background: #f0f0f0; color: #333; border: 1px solid #ddd; border-radius: 25px; padding: 10px 30px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s;"
+                    onmouseover="this.style.background='#e0e0e0'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.15)'"
+                    onmouseout="this.style.background='#f0f0f0'; this.style.boxShadow='none'">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Check if user has already made a choice
+        function checkCookieConsent() {
+            var consent = localStorage.getItem('cookieConsent');
+            if (!consent) {
+                document.getElementById('cookieConsent').style.display = 'block';
+            }
+        }
+
+        // Accept cookies
+        function acceptCookies() {
+            localStorage.setItem('cookieConsent', 'accepted');
+            document.getElementById('cookieConsent').style.display = 'none';
+            // Enable your analytics/tracking scripts here
+            console.log('Cookies accepted');
+        }
+
+        // Accept only necessary cookies
+        function acceptNecessaryCookies() {
+            localStorage.setItem('cookieConsent', 'necessary');
+            document.getElementById('cookieConsent').style.display = 'none';
+            console.log('Only necessary cookies accepted');
+        }
+
+        // Decline cookies
+        function declineCookies() {
+            localStorage.setItem('cookieConsent', 'declined');
+            document.getElementById('cookieConsent').style.display = 'none';
+            console.log('Cookies declined');
+        }
+
+        // Show banner on page load if needed
+        window.addEventListener('load', checkCookieConsent);
+    </script>
+
+
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Duvee Tech - Advanced Digital Marketing Services",
+        "description": "Overview video of Duvee Tech explaining advanced digital marketing, branding solutions and online business growth strategies.",
+        "thumbnailUrl": "https://www.duveetech.com/images/duvee-advanced-digital-marketing-video-thumbnail.jpg",
+        "uploadDate": "2026-01-10T10:00:00+05:30",
+        "duration": "PT1M20S",
+        "contentUrl": "https://www.duveetech.com/videos/duvee.mp4",
+        "embedUrl": "https://www.duveetech.com/videos/duvee.mp4"
+        }
+</script>
+
+</body>
+
+</html>
